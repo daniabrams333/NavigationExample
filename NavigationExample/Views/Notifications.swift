@@ -9,13 +9,19 @@ import SwiftUI
 
 struct Notifications: View {
     var body: some View {
-        List{
-            Text("Notification1")
-            Text("Notification2")
-            Text("Notification3")
-            Text("Notification4")
-            
-        }
+        
+            Section{
+                List{
+                    Text("Check your email")
+                    Text("Notification2")
+                    Section{
+                        Text("Notification3")
+                        Text("Notification4")
+                        
+                    }
+                }
+            }
+        
     }
 }
 
